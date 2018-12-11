@@ -1,0 +1,9 @@
+{
+  "name": "cache-holepuncher",
+  "version": "0.1.0",
+  "description": "A toolkit for pulling dynamic snippets in fully cached sites, aka Cache Hole Punching",
+  "main": "index.js",
+  "author": "Oliver Stark",
+  "license": "MIT",
+  "repository": "https://github.com/ostark/cache-holepuncher"
+}

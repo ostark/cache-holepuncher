@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/os/.nvm/versions/node/v9.5.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js publish
+
+PATH: 
+  /Users/os/.nvm/versions/node/v9.5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:/Users/os/Library/Python/2.7/bin:/Users/os/.composer/vendor/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Users/os/Code/go/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  9.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "cache-holepuncher",
+    "version": "0.1",
+    "description": "A toolkit for pulling dynamic snippets in fully cached sites, aka Cache Hole Punching",
+    "main": "index.js",
+    "author": "Oliver Stark",
+    "license": "MIT",
+    "repository": "https://github.com/ostark/cache-holepuncher"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cache-holepuncher: New versions must be valid semver.
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:62098:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123085:22)
+      at Request.emit (events.js:160:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:124068:10)
+      at Request.emit (events.js:160:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123988:12)
+      at Object.onceWrapper (events.js:255:19)
+      at IncomingMessage.emit (events.js:165:20)
+      at endReadableNT (_stream_readable.js:1101:12)
+      at process._tickCallback (internal/process/next_tick.js:152:19)
