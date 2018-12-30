@@ -1,6 +1,6 @@
 {
   "name": "cache-holepuncher",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "A toolkit for pulling dynamic snippets in fully cached sites, aka Cache Hole Punching",
   "main": "src/holepuncher.js",
   "browser": "dist/holepuncher.min.js",
@@ -17,5 +17,6 @@
     "babel:modern": "babel src/holepuncher.js -o dist/holepuncher.min.js --env-name=modern",
     "babel:legacy": "babel src/holepuncher.js -o dist/holepuncher.legacy.min.js --env-name=legacy",
     "prepare": "npm run babel:modern && npm run babel:legacy"
-  }
+  },
+  "default": "jsdelivr"
 }
