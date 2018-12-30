@@ -1,6 +1,6 @@
 {
   "name": "cache-holepuncher",
-  "version": "0.5.0",
+  "version": "0.6.1",
   "description": "A toolkit for pulling dynamic snippets in fully cached sites, aka Cache Hole Punching",
   "main": "src/holepuncher.js",
   "browser": "dist/holepuncher.min.js",
