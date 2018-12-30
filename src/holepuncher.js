@@ -48,6 +48,7 @@ class HolePuncher {
     constructor({localCache = true, verbose = false} = {}) {
         this.cache = new Cache(localCache);
         this.events = new EventDispatcher();
+        this.fetchOptions = {mode: 'no-cors', credentials: 'same-origin'};
         this.log = function (...args) {
             if (verbose === true && self.console && typeof console.log === 'function') {
                 args.unshift('[HolePuncher]');
@@ -75,7 +76,7 @@ class HolePuncher {
         this.log('Event before_fetch');
         this.events.fire('before_fetch', {'context': context});
 
-        return fetch(url, {mode: 'no-cors', credentials: 'same-origin'})
+        return fetch(url, this.fetchOptions)
             .then(response => {
                 if (response.ok) {
                     const resp = response.clone();

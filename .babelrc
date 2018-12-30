@@ -26,9 +26,7 @@
 		      "@babel/env",
 		      {
 		        "targets": [
-					"> 1%",
-					"last 2 versions",
-					"Firefox ESR"
+					"> 2%"
 				]
 		      }
 		    ]]
